@@ -1,0 +1,134 @@
+ body {
+        background-color: #f6f6fd;
+        font-family:sans-serif;
+        float: left;
+        margin: 10px;
+        padding-top: 20px;
+    }
+    h1 {
+        margin: 16px 10px;
+    }
+    h2 {
+        font-size: 16px;
+        font-weight: lighter;
+        line-height: 20px;
+        margin: 16px 10px;
+    }
+    ul {
+        padding: 0 0 0 12px;
+    }
+    li {
+        margin: 0 6px 0 6px;
+    }
+    .header-large {
+        border: 2px solid #e6e6ff;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        min-height: 140px;
+        block-size: fit-content;
+        background-color: white;
+    }
+    .header-medium {
+        margin: 20px 0 6px 0; 
+    }
+    .header-img {
+        border: 1px solid #e6e6ff;
+        border-radius: 50%;
+        float: left;
+        margin: 10px 20px 40px 10px;
+        width: 120px;
+    }
+    .img {
+        border: 2px solid #e6e6ff;
+        margin: 6px 0;
+        width: 50px;
+    }
+    .container-cards {
+        display: grid;
+        grid-gap: 20px 20px;
+        margin: 20px 10px 20px;
+    }
+    .content-card {
+        background-color: white;
+        block-size: fit-content;
+        border: 2px solid #e6e6ff;
+        border-radius: 10px;
+        padding: 0 20px 0 20px;
+        min-height: 360px;
+    }
+    .notation-container {
+        margin: 24px 0 0 14px;
+    }
+    .brand-color {
+        color: #9999ff;
+    }
+    .brand-color:hover {
+        font-weight: bold;
+    }
+    .divider {
+        border-top: 1px solid  #e6e6ff;
+    }
+    .text-small {
+        font-size: 12px;
+        margin: 2px 0 6px 0;
+    }
+    .text-medium {
+        font-size: 16px;
+        margin: 16px 0 0 0px;
+    }
+    .text-large {
+        font-size: 18px;
+    }
+    .text-bold {
+        font-weight: bold;
+        margin: 16px 0 0 0;
+    }
+    .footer {
+        background-color: white;
+        block-size: fit-content;
+        border: 2px solid #e6e6ff;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 6px;
+    }
+    button {
+        background: #e6e6ff;
+        border: 1px solid #c8c8d6;
+        border-radius: 30px;
+        box-shadow: 6px 6px rgb(230, 230, 255, .3);
+        color: #9999ff;
+        cursor: pointer;
+        font-size: 16px;
+        margin: 10px 10px 10px 0px;
+        padding: 10px 30px;
+        outline: none;
+        transition: all 150ms ease-in-out;
+    }
+    button:hover {
+        background: #9999ff;
+        border: 1px solid #e6e6ff;
+        color: white;
+        font-weight: bold;
+    }
+    @media (min-width: 870px) {
+    .container-cards { 
+        grid-template-columns: repeat(2, 1fr);
+        transition: all 150ms ease-in-out;
+        }
+    }
+    @media (min-width: 2000px) {
+        body::after {
+        content: "Wow you have a BIG screen!";
+        font-family:sans-serif;
+        display: block;
+        position: fixed;
+        top: 60px;
+        bottom: 0px;
+        right: 3rem;
+        font-size: 6.5vh;        
+        transform: rotate(90deg);
+        color: #9999ff;
+        transition: all 150ms ease-in-out;
+        }
+    }

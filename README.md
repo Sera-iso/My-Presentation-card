@@ -6,6 +6,6 @@ Hi, this is me in a nutshell! Enjoy reading 💁🏽‍♀️
 
 
 FYI I am pretty good at rock, paper, scissors. Want to challenge me?
--> Visit https://dreamy-spence-10fe87.netlify.app/
+Visit https://dreamy-spence-10fe87.netlify.app/
 
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/74925057/115625241-0d16fa00-a2fc-11eb-864d-626397d9f67d.gif)
